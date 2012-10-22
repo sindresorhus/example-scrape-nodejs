@@ -1,0 +1,30 @@
+{
+	"name": "JSHint-changelog",
+	"version": "0.1.0",
+	"description": "Scraped RSS feed of the JSHint Changelog",
+	"homepage": "https://github.com/sindresorhus/JSHint-changelog",
+	"bugs": "https://github.com/sindresorhus/JSHint-changelog/issues",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "http://sindresorhus.com"
+	},
+	"main": "feed.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sindresorhus/JSHint-changelog.git"
+	},
+	"dependencies": {
+		"request": "~2.11.4",
+		"cheerio": "~0.10.1",
+		"rss": "~0.0.4"
+	},
+	"engines": {
+		"node": ">=0.8"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	]
+}
